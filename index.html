@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Ember Starter Kit</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ember Starter Kit</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 <body>
   <script type="text/x-handlebars">
-    <h2>Welcome to Ember.js</h2>
+    <div class="container">
+      <h1>Velkommen til Blepriser.randomTLD</h1>
 
-    {{outlet}}
+      {{outlet}}
+    </div>
   </script>
 
-  <script type="text/x-handlebars" id="index">
-    <ul>
-    {{#each item in model}}
-      <li>{{item}}</li>
-    {{/each}}
-    </ul>
+  <script type="text/x-handlebars" data-template-name="index">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Navn</th>
+            <th>Producent</th>
+            <th>Min. vægt</th>
+            <th>Max. vægt</th>
+            <th>Antal</th>
+            <th>Pris</th>
+            <th>Pris pr. stk</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each diaper in model}}
+            <tr>  
+              <td>{{diaper.name}}</td>
+              <td>{{diaper.manufacturer.name}}</td>
+              <td>{{diaper.minimumWeight}}</td>
+              <td>{{diaper.maximumWeight}}</td>
+              <td>{{diaper.unitCount}}</td>
+              <td>{{diaper.price}}</td>
+              <td>{{diaper.unitPrice}}</td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/bootstrap.min.js"></script>
   <script src="js/libs/ember-1.2.0.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/libs/ember-data.js"></script>
+  <script src="js/application.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/models/diaper.js"></script>
+  <script src="js/models/manufacturer.js"></script>
   <!-- to activate the test runner, add the "?test" query string parameter -->
   <script src="tests/runner.js"></script>
 </body>
