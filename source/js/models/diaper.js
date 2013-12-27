@@ -162,5 +162,135 @@ Diapers.Diaper.FIXTURES = [
    minimumWeight: 12,
    maximumWeight: 22,
    manufacturer: 3
+ },
+ {
+   id: 16,
+   name: 'Baby Soft Premature',
+   price: 0.0,
+   unitCount: 24,
+   size: 0,
+   minimumWeight: 0,
+   maximumWeight: 2,
+   manufacturer: 4
+ },
+ {
+   id: 16,
+   name: 'Baby Soft',
+   price: 0.0,
+   unitCount: 28,
+   size: 1,
+   minimumWeight: 2,
+   maximumWeight: 5,
+   manufacturer: 4
+ },
+ {
+   id: 17,
+   name: 'Baby Soft',
+   price: 0.0,
+   unitCount: 36,
+   size: 2,
+   minimumWeight: 3,
+   maximumWeight: 6,
+   manufacturer: 4
+ },
+ {
+   id: 18,
+   name: 'Baby Soft',
+   price: 0.0,
+   unitCount: 62,
+   size: 3,
+   minimumWeight: 4,
+   maximumWeight: 9,
+   manufacturer: 4
+ },
+ {
+   id: 19,
+   name: 'Comfort',
+   price: 0.0,
+   unitCount: 54,
+   size: 4,
+   minimumWeight: 7,
+   maximumWeight: 14,
+   manufacturer: 4
+ },
+ {
+   id: 20,
+   name: 'Comfort',
+   price: 0.0,
+   unitCount: 50,
+   size: 5,
+   minimumWeight: 10,
+   maximumWeight: 16,
+   manufacturer: 4
+ },
+ {
+   id: 21,
+   name: 'Comfort',
+   price: 0.0,
+   unitCount: 46,
+   size: 6,
+   minimumWeight: 12,
+   maximumWeight: 22,
+   manufacturer: 4
+ },
+ {
+   id: 22,
+   name: 'Comfort',
+   price: 0.0,
+   unitCount: 42,
+   size: 7,
+   minimumWeight: 15,
+   maximumWeight: 30,
+   manufacturer: 4
+ },
+ {
+   id: 23,
+   name: 'UP&GO',
+   price: 0.0,
+   unitCount: 46,
+   size: 4,
+   minimumWeight: 7,
+   maximumWeight: 11,
+   manufacturer: 4
+ },
+ {
+   id: 24,
+   name: 'UP&GO',
+   price: 0.0,
+   unitCount: 42,
+   size: 5,
+   minimumWeight: 10,
+   maximumWeight: 14,
+   manufacturer: 4
+ },
+ {
+   id: 25,
+   name: 'UP&GO',
+   price: 0.0,
+   unitCount: 38,
+   size: 6,
+   minimumWeight: 13,
+   maximumWeight: 20,
+   manufacturer: 4
+ },
+ {
+   id: 26,
+   name: 'UP&GO',
+   price: 0.0,
+   unitCount: 34,
+   size: 7,
+   minimumWeight: 16,
+   maximumWeight: 26,
+   manufacturer: 4
+ },
+ {
+   id: 27,
+   name: 'UP&GO',
+   price: 0.0,
+   unitCount: 30,
+   size: 8,
+   minimumWeight: 19,
+   maximumWeight: 30,
+   manufacturer: 4
  }
 ];
