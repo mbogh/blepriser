@@ -103,4 +103,64 @@ Diapers.Diaper.FIXTURES = [
    maximumWeight: 25,
    manufacturer: 2
  },
+ {
+   id: 10,
+   name: 'XL Pants',
+   price: 39.95,
+   unitCount: 20,
+   size: 0,
+   minimumWeight: 16,
+   maximumWeight: 25,
+   manufacturer: 3
+ },
+ {
+   id: 11,
+   name: 'Junior Pants',
+   price: 39.95,
+   unitCount: 22,
+   size: 0,
+   minimumWeight: 12,
+   maximumWeight: 20,
+   manufacturer: 3
+ },
+ {
+   id: 12,
+   name: 'Maxi',
+   price: 39.95,
+   unitCount: 31,
+   size: 0,
+   minimumWeight: 7,
+   maximumWeight: 16,
+   manufacturer: 3
+ },
+ {
+   id: 13,
+   name: 'Midi',
+   price: 58.00,
+   unitCount: 60,
+   size: 0,
+   minimumWeight: 5,
+   maximumWeight: 8,
+   manufacturer: 3
+ },
+ {
+   id: 14,
+   name: 'Midi',
+   price: 39.95,
+   unitCount: 32,
+   size: 0,
+   minimumWeight: 5,
+   maximumWeight: 8,
+   manufacturer: 3
+ },
+ {
+   id: 15,
+   name: 'Junior',
+   price: 39.95,
+   unitCount: 28,
+   size: 0,
+   minimumWeight: 12,
+   maximumWeight: 22,
+   manufacturer: 3
+ }
 ];
