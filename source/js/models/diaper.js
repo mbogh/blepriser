@@ -292,5 +292,145 @@ Diapers.Diaper.FIXTURES = [
    minimumWeight: 19,
    maximumWeight: 30,
    manufacturer: 4
+ },
+ {
+   id: 28,
+   name: 'Active Fit',
+   price: 0.0,
+   unitCount: 0,
+   size: 3,
+   minimumWeight: 4,
+   maximumWeight: 7,
+   manufacturer: 5
+ },
+ {
+   id: 29,
+   name: 'Active Fit',
+   price: 0.0,
+   unitCount: 0,
+   size: 4,
+   minimumWeight: 7,
+   maximumWeight: 18,
+   manufacturer: 5
+ },
+ {
+   id: 30,
+   name: 'Active Fit',
+   price: 0.0,
+   unitCount: 0,
+   size: 4,
+   minimumWeight: 9,
+   maximumWeight: 20,
+   manufacturer: 5
+ },
+ {
+   id: 31,
+   name: 'Active Fit',
+   price: 0.0,
+   unitCount: 0,
+   size: 5,
+   minimumWeight: 11,
+   maximumWeight: 25,
+   manufacturer: 5
+ },
+ {
+   id: 32,
+   name: 'Active Fit',
+   price: 0.0,
+   unitCount: 0,
+   size: 5,
+   minimumWeight: 13,
+   maximumWeight: 27,
+   manufacturer: 5
+ },
+ {
+   id: 33,
+   name: 'New Baby',
+   price: 0.0,
+   unitCount: 0,
+   size: 1,
+   minimumWeight: 2,
+   maximumWeight: 5,
+   manufacturer: 5
+ },
+ {
+   id: 34,
+   name: 'New Baby',
+   price: 0.0,
+   unitCount: 0,
+   size: 2,
+   minimumWeight: 3,
+   maximumWeight: 6,
+   manufacturer: 5
+ },
+ {
+   id: 35,
+   name: 'New Baby',
+   price: 0.0,
+   unitCount: 0,
+   size: 3,
+   minimumWeight: 4,
+   maximumWeight: 7,
+   manufacturer: 5
+ },
+ {
+   id: 36,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 3,
+   minimumWeight: 4,
+   maximumWeight: 9,
+   manufacturer: 5
+ },
+ {
+   id: 37,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 4,
+   minimumWeight: 7,
+   maximumWeight: 18,
+   manufacturer: 5
+ },
+ {
+   id: 38,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 4,
+   minimumWeight: 9,
+   maximumWeight: 20,
+   manufacturer: 5
+ },
+ {
+   id: 39,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 5,
+   minimumWeight: 11,
+   maximumWeight: 25,
+   manufacturer: 5
+ },
+ {
+   id: 40,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 5,
+   minimumWeight: 13,
+   maximumWeight: 27,
+   manufacturer: 5
+ },
+ {
+   id: 41,
+   name: 'Baby-Dry',
+   price: 0.0,
+   unitCount: 0,
+   size: 6,
+   minimumWeight: 16,
+   maximumWeight: 30,
+   manufacturer: 5
  }
 ];
