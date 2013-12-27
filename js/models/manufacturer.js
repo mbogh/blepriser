@@ -14,5 +14,13 @@ Diapers.Manufacturer.FIXTURES = [
  {
    id: 3,
    name: 'Minirisk (fakta)'
+ },
+ {
+   id: 4,
+   name: 'Libero'
+ },
+ {
+   id: 5,
+   name: 'Pampers'
  }
 ];
