@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blepriser.dk - Gør det nemt at sammenligne priser på bleer</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
@@ -17,6 +18,11 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="index">
+    <div id="weight-selector">
+      <h3>Hvad vejer den lille?</h3>
+      <input id="weight-slider" data-slider-id='weight-slider' type="text" data-slider-min="-1" data-slider-max="40" data-slider-step="1" data-slider-value="-1" data-slider-tooltip="hide">
+      <p id="weight-value">Uh det ved jeg ikke, vis alle bleer.</p>
+    </div>
     <div class="table-responsive">
       <table class="table">
         <thead>
@@ -31,7 +37,7 @@
           </tr>
         </thead>
         <tbody>
-          {{#each diaper in model}}
+          {{#each diaper in filteredResult}}
             <tr>  
               <td>{{diaper.name}}</td>
               <td>{{diaper.manufacturer.name}}</td>
@@ -47,13 +53,16 @@
     </div>
   </script>
 
-  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/jquery-2.0.3.min.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>
   <script src="js/libs/bootstrap.min.js"></script>
+  <script src="js/libs/bootstrap-slider.min.js"></script>
   <script src="js/libs/ember-1.2.0.js"></script>
   <script src="js/libs/ember-data.js"></script>
   <script src="js/application.js"></script>
   <script src="js/router.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/view.js"></script>
   <script src="js/models/diaper.js"></script>
   <script src="js/models/manufacturer.js"></script>
   <!-- to activate the test runner, add the "?test" query string parameter -->
